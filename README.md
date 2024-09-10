@@ -1,2 +1,2 @@
 # WEB-hw
-Repository for homework
+Репозиторій для виконаних лабораторних робіт з WEB
