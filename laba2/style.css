@@ -1,0 +1,62 @@
+.h {
+    background-color: rgba(240, 240, 240, 0.9);
+}
+h1 {
+    font-size: 44px;
+}
+h2 {
+    color: chocolate;
+}
+h3 {
+    line-height: 5;
+}
+h4 {
+    text-align: center;
+}
+.bul li::marker{
+    content: "*";
+}
+.num li {
+    color: blue;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.bul li {
+    color: cornflowerblue;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.catImg {
+    max-width: 300px;
+    max-height: 420px;
+    border: 5px solid pink;
+    border-radius: 12px;
+    margin: 15px auto 0 auto;
+}
+
+.list {
+    border-left: 3px aqua solid;
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 3px;
+    margin: 3px;
+}
+
+.links {
+    background-color: rgba(240, 200, 240, 0.9);
+    min-height: 80px;
+    text-align: center;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    background-color: ghostwhite;
+    padding: 3px;
+    margin: 5px;
+}
+strong {
+    text-shadow: 2px 2px 4px #000000;
+}
