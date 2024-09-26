@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.item:hover {
+    background-color: cadetblue;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 650px) {
+    .container {
+        flex-direction: column;
+    }
+}
